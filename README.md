@@ -148,7 +148,7 @@ NSString *token = @"";
 
 ### Отправка реакций
 
-В панеле администратора разработчик определяет (тип) реакции и возможные значения для данного типа реакции.
+В панеле администратора разработчик определяет тип реакции и возможные значения для данного типа реакции.
 
 ```obj-c
 NSString *type = @"liking";
@@ -166,6 +166,24 @@ NSNumber *expiresTime = @([expiresDate timeIntervalSince1970]);
     NSLog(@"%@", error);
 }];
 ```
+#### События
+Для реакций в панели администратора можно настроить триггеры, которые могут порождать события. Получения новых собитый:
+
+```obj-c
+SoulSDK *soulSDK = [SoulSDK instance];
+SLEvent *event = [SLEvent new];
+NSNumber *limit = @(20);
+
+[[soulSDK events] loadAfter:event.recordId limit:limit success:^(SLApiEventsSuccess *_Nonnull responce) {
+    for (SLEvent *user in responce.events) {
+    	NSLog(@"%@", user.recordId);
+    }
+
+} failure:^(NSError *_Nullable error) {
+    NSLog(@"%@", error);
+}];
+```
+
 
 ### Сообщения
 
