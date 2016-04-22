@@ -48,9 +48,9 @@ NSString *phoneNumber = @"+79061234567";
     
     NSLog(@"Status: %d", response.status);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -61,10 +61,22 @@ NSString *phoneNumber = @"+79061234567";
 
     NSLog(@"%@ / %@", response.me.userId, response.authorization.sessionToken);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
+```
+
+### Проверка наличия авторизации
+
+После последующих запусках важно знать, авторизован ли пользователь:
+
+```obj-c
+if (soulSDK.authorized) {
+   // пользователь авторизован
+} else {
+   // показываем экран регистрации
+}
 ```
 
 ### Профиль пользователя
@@ -91,9 +103,9 @@ SoulSDK *soulSDK = [SoulSDK instance];
 
     NSLog(@"%@", response.me.parameters.filterable);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Создание альбома
@@ -105,9 +117,9 @@ NSString *albumName = @"Best album ever";
     
     NSLog(@"success");
 
-} failure:^(NSError * _Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Загрузка фотографии
@@ -120,9 +132,9 @@ NSData *photoData = UIImagePNGRepresentation(image);
 
     NSLog(@"%@", response.photo.photoId);
 
-} failure:^(NSError * _Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"error");
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -140,9 +152,38 @@ NSString *token = @"";
     	NSLog(@"%@", user.userId);
     }
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
+}];
+```
+
+### Фильтрация выдачи
+Вы можете указать параметры по которым необходимо фильтровать выдачу. Например, вы захотите получать только девешук определённо возраста. Для этого нужно установить фильтры:
+
+```obj-c
+SLFilter *filter = [SLFilter new];
+[filter addConditionFor:@"gender" equalTo:@"female"];
+
+[filter addConditionFor:@"age" greaterThan:@20];
+[filter addConditionFor:@"height" greaterThanOrEqualTo:@150];
+
+[filter addConditionFor:@"weight" lessThan:@70];
+[filter addConditionFor:@"salary" lessThanOrEqualTo:@1000];
+
+[[soulSDK users] setFilter:filter success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
+}];
+```
+
+Каждый раз при установки критериев фильтрации, старые критерии перезаписываются. Поэтому, чтобы сбросить установленные фильтры необходимо передать `nil`:
+```obj-c
+[[soulSDK users] setFilter:nil success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -161,9 +202,9 @@ NSNumber *expiresTime = @([expiresDate timeIntervalSince1970]);
 
     NSLog(@"%@", responce.user.reactions.sentByMe);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 #### События
@@ -179,8 +220,8 @@ NSNumber *limit = @(20);
     	NSLog(@"%@", user.recordId);
     }
 
-} failure:^(NSError *_Nullable error) {
-    NSLog(@"%@", error);
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -197,9 +238,9 @@ NSNumber *limit = @(20);
         NSLog(@"%@ / %@", chat.chatId, chat.channelName);
     }
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Загрузка истории
