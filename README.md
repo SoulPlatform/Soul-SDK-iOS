@@ -38,7 +38,7 @@ config.apiKey = @"*********";
 
 ### Авторизация по логину и паролю
 ```obj-c
-[[soulSDK passwordAuth] signUpWithLogin:@"alalal" password:@"jdjdjd" success:^(SLPhoneAuthVerify * _Nonnull responce) {
+[[soulSDK passwordAuth] signUpWithLogin:@"alice" password:@"pswrd" success:^(SLPhoneAuthVerify * _Nonnull responce) {
     NSLog(@"success");
 } failure:^(SLErrorResponse * _Nullable response) {
     NSLog(@"%@", response);
