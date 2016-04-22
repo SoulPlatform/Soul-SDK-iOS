@@ -110,6 +110,8 @@ SoulSDK *soulSDK = [SoulSDK instance];
 ```
 ### Создание альбома
 
+По умолчанию у каждого пользователя есть альбом `default`. Однако вы можете создать любое количество дополнительных альбомов.
+
 ```obj-c
 NSString *albumName = @"Best album ever";
 
@@ -125,7 +127,6 @@ NSString *albumName = @"Best album ever";
 ### Загрузка фотографии
 
 ```obj-c
-
 NSData *photoData = UIImagePNGRepresentation(image);
 
 [[soulSDK album] addPhoto:photoData toAlbum:album.name success:^(SLPhotoResponse * _Nonnull response) {
@@ -135,6 +136,19 @@ NSData *photoData = UIImagePNGRepresentation(image);
 } failure:^(SLErrorResponse * _Nullable response) {
 
     NSLog(@"%@", response);
+}];
+```
+
+### Основное фото альбома
+
+Каждому альбому можно установить основную фотографию, которая будет выступать в роли аватара альбома:
+
+```obj-c
+SLPhoto *photo = album.photos.firstObject;
+[[soulSDK album] setMainPhotoById:photo.photoId toAlbum:album.name success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", error);
 }];
 ```
 
