@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLAvailableSubscriptionMapperProtocol.h

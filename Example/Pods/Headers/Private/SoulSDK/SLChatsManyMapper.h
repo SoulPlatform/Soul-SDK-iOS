@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Chats/Mappers/SLChatsManyMapper.h

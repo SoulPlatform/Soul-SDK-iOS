@@ -36,6 +36,15 @@ config.apiKey = @"*********";
 [SoulSDK activateWithApiConfig:config];
 ```
 
+### Авторизация по логину и паролю
+```obj-c
+[[soulSDK passwordAuth] signUpWithLogin:@"alalal" password:@"jdjdjd" success:^(SLPhoneAuthVerify * _Nonnull responce) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
+}];
+```
+
 ### Авторизация по телефону
 
 Для авторизации по номеру телефона необходимо получить код подтверждения.
@@ -48,9 +57,9 @@ NSString *phoneNumber = @"+79061234567";
     
     NSLog(@"Status: %d", response.status);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -61,10 +70,22 @@ NSString *phoneNumber = @"+79061234567";
 
     NSLog(@"%@ / %@", response.me.userId, response.authorization.sessionToken);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
+```
+
+### Проверка наличия авторизации
+
+При последующих запусках приложения важно знать, авторизован ли пользователь:
+
+```obj-c
+if (soulSDK.authorized) {
+   // пользователь авторизован
+} else {
+   // показываем экран регистрации
+}
 ```
 
 ### Профиль пользователя
@@ -91,12 +112,14 @@ SoulSDK *soulSDK = [SoulSDK instance];
 
     NSLog(@"%@", response.me.parameters.filterable);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Создание альбома
+
+По умолчанию у каждого пользователя есть альбом `default`. Однако вы можете создать любое количество дополнительных альбомов.
 
 ```obj-c
 NSString *albumName = @"Best album ever";
@@ -105,24 +128,36 @@ NSString *albumName = @"Best album ever";
     
     NSLog(@"success");
 
-} failure:^(NSError * _Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Загрузка фотографии
 
 ```obj-c
-
 NSData *photoData = UIImagePNGRepresentation(image);
 
 [[soulSDK album] addPhoto:photoData toAlbum:album.name success:^(SLPhotoResponse * _Nonnull response) {
 
     NSLog(@"%@", response.photo.photoId);
 
-} failure:^(NSError * _Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"error");
+    NSLog(@"%@", response);
+}];
+```
+
+### Основное фото альбома
+
+Каждому альбому можно установить основную фотографию, которая будет выступать в роли аватара альбома:
+
+```obj-c
+SLPhoto *photo = album.photos.firstObject;
+[[soulSDK album] setMainPhotoById:photo.photoId toAlbum:album.name success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -137,12 +172,41 @@ NSString *token = @"";
 [soulSDK loadBySession:session uniqueToken:token success:^(SLUsersRecsResponse *_Nonnull responce) {
 
     for (SLUser *user in responce.users) {
-    	NSLog(@"%@", user.userId);
+        NSLog(@"%@", user.userId);
     }
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
+}];
+```
+
+### Фильтрация выдачи
+Вы можете указать параметры по которым необходимо фильтровать выдачу. Например, вы захотите получать только девешук определённо возраста. Для этого нужно установить фильтры:
+
+```obj-c
+SLFilter *filter = [SLFilter new];
+[filter addConditionFor:@"gender" equalTo:@"female"];
+
+[filter addConditionFor:@"age" greaterThan:@20];
+[filter addConditionFor:@"height" greaterThanOrEqualTo:@150];
+
+[filter addConditionFor:@"weight" lessThan:@70];
+[filter addConditionFor:@"salary" lessThanOrEqualTo:@1000];
+
+[[soulSDK users] setFilter:filter success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
+}];
+```
+
+Каждый раз при установки критериев фильтрации, старые критерии перезаписываются. Поэтому, чтобы сбросить установленные фильтры необходимо передать `nil`:
+```obj-c
+[[soulSDK users] setFilter:nil success:^(SLResponse * _Nonnull response) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -161,9 +225,9 @@ NSNumber *expiresTime = @([expiresDate timeIntervalSince1970]);
 
     NSLog(@"%@", responce.user.reactions.sentByMe);
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 #### События
@@ -176,11 +240,11 @@ NSNumber *limit = @(20);
 
 [[soulSDK events] loadAfter:event.recordId limit:limit success:^(SLApiEventsSuccess *_Nonnull responce) {
     for (SLEvent *user in responce.events) {
-    	NSLog(@"%@", user.recordId);
+        NSLog(@"%@", user.recordId);
     }
 
-} failure:^(NSError *_Nullable error) {
-    NSLog(@"%@", error);
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
 }];
 ```
 
@@ -197,9 +261,9 @@ NSNumber *limit = @(20);
         NSLog(@"%@ / %@", chat.chatId, chat.channelName);
     }
 
-} failure:^(NSError *_Nullable error) {
+} failure:^(SLErrorResponse * _Nullable response) {
 
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 ### Загрузка истории

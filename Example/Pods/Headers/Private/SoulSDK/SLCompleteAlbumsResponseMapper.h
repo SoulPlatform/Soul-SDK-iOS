@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Albums/Mappers/SLCompleteAlbumsResponseMapper.h

@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Extras/Mappers/SLPagingOffsetMetaMapper.h

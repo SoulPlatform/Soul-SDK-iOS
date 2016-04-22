@@ -1,0 +1,37 @@
+{
+  "name": "SoulSDK",
+  "version": "0.1.3",
+  "summary": "SOUL SDK for iOS 8+",
+  "description": "Soul SDK description",
+  "homepage": "https://bitbucket.org/SoulPlatform/soul-ios-sdk",
+  "license": "MIT",
+  "authors": {
+    "Mikhail Shershnev": "mshershnev.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/SoulPlatform/soul-ios-sdk.git",
+    "tag": "0.1.3"
+  },
+  "social_media_url": "https://twitter.com/mshershnev",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SoulSDK": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "EasyMapping": [
+      "~> 0.15.0"
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "PubNub": [
+      "~> 4.3.0"
+    ]
+  }
+}

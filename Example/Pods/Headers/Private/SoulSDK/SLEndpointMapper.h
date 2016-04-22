@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Endpoint/Mappers/SLEndpointMapper.h

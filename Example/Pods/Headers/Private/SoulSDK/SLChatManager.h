@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Managers/Chats/SLChatManager.h

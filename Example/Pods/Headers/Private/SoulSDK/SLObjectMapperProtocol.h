@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Common/Mappers/Protocols/SLObjectMapperProtocol.h

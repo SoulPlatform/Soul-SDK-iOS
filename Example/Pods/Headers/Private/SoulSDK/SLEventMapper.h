@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Events/Mappers/SLEventMapper.h

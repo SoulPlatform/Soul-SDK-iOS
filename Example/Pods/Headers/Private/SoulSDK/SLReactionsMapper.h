@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Reactions/Mappers/SLReactionsMapper.h

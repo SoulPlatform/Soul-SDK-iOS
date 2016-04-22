@@ -1,0 +1,1692 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFAutoPurgingImageCache.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFImageDownloader.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/CocoaLumberjack.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack-Swift.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/CocoaLumberjack.framework/Headers/CocoaLumberjack-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogCapture.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogger.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDASLLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAbstractDatabaseLogger.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAssertMacros.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDAssertMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDContextFilterLogFormatter.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDDispatchQueueLogFormatter.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDFileLogger.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDFileLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLegacyMacros.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog+LOGV.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLogMacros.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDLogMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDMultiFormatter.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDTTYLogger.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/CocoaLumberjack/Classes/DDTTYLogger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/CocoaLumberjack.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Pods.build/Debug-iphonesimulator/CocoaLumberjack.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/EasyMapping.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EKCoreDataImporter.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKCoreDataImporter.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKManagedObjectMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKManagedObjectMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKManagedObjectMapping.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKManagedObjectMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKManagedObjectModel.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKManagedObjectModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKMappingBlocks.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKMappingBlocks.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKMappingProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKMappingProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKObjectMapping.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKObjectMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKObjectModel.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKObjectModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKPropertyHelper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKPropertyHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKPropertyMapping.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKPropertyMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKRelationshipMapping.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKRelationshipMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "EKSerializer.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EKSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "EasyMapping-Swift.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/EasyMapping.framework/Headers/EasyMapping-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EasyMapping-umbrella.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/Target Support Files/EasyMapping/EasyMapping-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "EasyMapping.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/EasyMapping.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+FlattenArray.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/NSArray+FlattenArray.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDateFormatter+EasyMappingAdditions.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/EasyMapping/EasyMapping/NSDateFormatter+EasyMappingAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/EasyMapping.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Pods.build/Debug-iphonesimulator/EasyMapping.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/PubNub.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PNAES.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNAES.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAPNSEnabledChannelsResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNAcknowledgmentStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNAcknowledgmentStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelClientStateResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNChannelClientStateResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupChannelsResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupChannelsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupClientStateResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupClientStateResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupsResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupsResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientInformation.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNClientInformation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientStateUpdateStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNClientStateUpdateStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNConfiguration.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorCodes.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/PNErrorCodes.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHistoryResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNHistoryResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLog.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Logger/PNLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNObjectEventListener.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Protocols/PNObjectEventListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelGroupHereNowResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceChannelHereNowResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceGlobalHereNowResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceWhereNowResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceWhereNowResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPublishStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNPublishStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNServiceData.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStructures.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/PNStructures.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeStatus.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscriberResults.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNSubscriberResults.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNTimeResult.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNTimeResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+APNS.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+APNS.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+ChannelGroup.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+ChannelGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Core.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+Core.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+History.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+History.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Presence.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+Presence.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Publish.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+Publish.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+State.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+State.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Subscribe.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+Subscribe.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+Time.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+Time.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub-Swift.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/PubNub.framework/Headers/PubNub-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub-umbrella.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/Target Support Files/PubNub/PubNub-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/PubNub.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/PubNub.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Pods.build/Debug-iphonesimulator/PubNub.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/PubNub.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PNArray.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNArray.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannel.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNChannel.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupAuditionParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupAuditionParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNChannelGroupModificationParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupModificationParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClass.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNClass.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientState.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Managers/PNClientState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNClientStateParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNClientStateParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNConfiguration+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNConfiguration+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNConstants.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/PNConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNData.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNData.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNDictionary.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNEnvelopeInformation.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNEnvelopeInformation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNErrorParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNErrorStatus+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNGZIP.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNGZIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHeartbeat.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Managers/PNHeartbeat.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHeartbeatParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNHeartbeatParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHelpers.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNHelpers.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNHistoryParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNHistoryParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNJSON.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNJSON.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNKeychain.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/PNKeychain.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLeaveParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNLeaveParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLogFileManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Logger/PNLogFileManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLogMacro.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Logger/PNLogMacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNLogger.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Logger/PNLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNMessagePublishParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNMessagePublishParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNetwork.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/PNNetwork.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNetworkResponseSerializer.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/PNNetworkResponseSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNNumber.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNNumber.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Protocols/PNParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceHereNowParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNPresenceHereNowParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPresenceWhereNowParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNPresenceWhereNowParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPrivateStructures.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/PNPrivateStructures.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPushNotificationsAuditParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsAuditParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNPushNotificationsStateModificationParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNReachability.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/PNReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNRequestParameters.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/PNRequestParameters.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNResult+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNResult+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNServiceData+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStateListener.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Managers/PNStateListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNStatus+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNString.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNString.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNSubscribeParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscribeStatus+Private.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNSubscriber.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Data/Managers/PNSubscriber.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNTimeParser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/Parsers/PNTimeParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNURLBuilder.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Network/PNURLBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PNURLRequest.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Misc/Helpers/PNURLRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+CorePrivate.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+CorePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+PresencePrivate.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+PresencePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PubNub+SubscribePrivate.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/PubNub/PubNub/Core/PubNub+SubscribePrivate.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/SoulSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSMutableDictionary+SLHelper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Categories/NSMutableDictionary+SLHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAdditionalInfo.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/SLAdditionalInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAdditionalInfoMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/SLAdditionalInfoMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAdditionalInfoMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/Protocols/SLAdditionalInfoMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbum.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLAlbum.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbumMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLAlbumMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbumMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/Protocols/SLAlbumMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbumResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLAlbumResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbumResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLAlbumResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAlbumResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/Protocols/SLAlbumResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiAlbum.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Album/SLApiAlbum.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiAuth.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Auth/SLApiAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiBase.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/SLApiBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiChats.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Chats/SLApiChats.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiEvents.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Events/SLApiEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiMe.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Me/SLApiMe.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiPhoneAuth.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Auth/SLApiPhoneAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiPhoto.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Photo/SLApiPhoto.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiUser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Users/SLApiUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLApiUsers.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Endpoints/Users/SLApiUsers.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAuthorization.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/SLAuthorization.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAuthorizationMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/SLAuthorizationMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAuthorizationMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/Protocols/SLAuthorizationMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscription.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/SLAvailableSubscription.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscriptionMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/SLAvailableSubscriptionMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscriptionMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLAvailableSubscriptionMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscriptions.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/SLAvailableSubscriptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscriptionsMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/SLAvailableSubscriptionsMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLAvailableSubscriptionsMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLAvailableSubscriptionsMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChat.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/SLChat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLChatEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLChatEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Managers/Chats/SLChatManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/SLChatMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/Protocols/SLChatMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsMany.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/SLChatsMany.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsManyMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/SLChatsManyMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsManyMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/Protocols/SLChatsManyMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsObjectCount.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/SLChatsObjectCount.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsObjectCountMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/SLChatsObjectCountMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsObjectCountMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/Protocols/SLChatsObjectCountMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsOne.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/SLChatsOne.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsOneMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/SLChatsOneMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLChatsOneMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Chats/Mappers/Protocols/SLChatsOneMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLCompleteAlbum.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLCompleteAlbum.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLCompleteAlbumMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLCompleteAlbumMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLCompleteAlbumsResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLCompleteAlbumsResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLCompleteAlbumsResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLCompleteAlbumsResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLCompleteAlbumsResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/Protocols/SLCompleteAlbumsResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLConfig.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/SLConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEndpoint.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Endpoint/SLEndpoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEndpointEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLEndpointEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEndpointEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLEndpointEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEndpointMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Endpoint/Mappers/SLEndpointMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEndpointMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Endpoint/Mappers/Protocols/SLEndpointMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLError.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/SLError.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLErrorMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/Mappers/SLErrorMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLErrorMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/Mappers/Protocols/SLErrorMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLErrorResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/SLErrorResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLErrorResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/Mappers/SLErrorResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLErrorResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Error/Mappers/Protocols/SLErrorResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Protocols/SLEventMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactions.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Reactions/SLEventReactions.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactionsMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Reactions/SLEventReactionsMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactionsMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Protocols/Reactions/SLEventReactionsMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactionsUser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Reactions/SLEventReactionsUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactionsUserMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Reactions/SLEventReactionsUserMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventReactionsUserMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Protocols/Reactions/SLEventReactionsUserMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventType.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventTypeMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLEventTypeMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventTypeMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Protocols/SLEventTypeMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventsResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLEventsResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventsResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLEventsResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLEventsResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/Protocols/SLEventsResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLFilterableParameters.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/SLFilterableParameters.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLFilterableParametersMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/Mappers/SLFilterableParametersMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLFilterableParametersMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/Mappers/Protocols/SLFilterableParametersMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLHTTPHeadersManager.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/HTTP Client/SLHTTPHeadersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLHttpClient.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/HTTP Client/SLHttpClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLHttpClientProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/HTTP Client/SLHttpClientProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLLocation.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Location/SLLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLLocationMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Location/Mappers/SLLocationMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLLocationMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Location/Mappers/Protocols/SLLocationMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLMeEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLMeEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeUser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLMeUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeUserMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLMeUserMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeUserResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLMeUserResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeUserResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLMeUserResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMeUserResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/Protocols/SLMeUserResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMiniAlbum.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLMiniAlbum.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMiniAlbumMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLMiniAlbumMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMiniAlbumsResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/SLMiniAlbumsResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMiniAlbumsResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/SLMiniAlbumsResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLMiniAlbumsResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Albums/Mappers/Protocols/SLMiniAlbumsResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLNotificationTokens.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/NotoficationToken/SLNotificationTokens.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLNotificationTokensMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/NotoficationToken/Mappers/SLNotificationTokensMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLNotificationTokensMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/NotoficationToken/Mappers/Protocols/SLNotificationTokensMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObject.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Common/SLObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObjectCount.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/SLObjectCount.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObjectCountMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/SLObjectCountMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObjectCountMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/Protocols/SLObjectCountMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObjectMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Common/Mappers/SLObjectMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLObjectMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Common/Mappers/Protocols/SLObjectMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLOtherUser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLOtherUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLOtherUserMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLOtherUserMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLOtherUserResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLOtherUserResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLOtherUserResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLOtherUserResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLOtherUserResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/Protocols/SLOtherUserResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingAfterMeta.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/SLPagingAfterMeta.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingAfterMetaMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/SLPagingAfterMetaMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingAfterMetaMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/Protocols/SLPagingAfterMetaMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingOffsetMeta.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/SLPagingOffsetMeta.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingOffsetMetaMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/SLPagingOffsetMetaMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPagingOffsetMetaMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/Protocols/SLPagingOffsetMetaMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthRequest.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/SLPhoneAuthRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthRequestMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/SLPhoneAuthRequestMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthRequestMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/Protocols/SLPhoneAuthRequestMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthVerify.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/SLPhoneAuthVerify.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthVerifyMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/SLPhoneAuthVerifyMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoneAuthVerifyMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Authorization/Mappers/Protocols/SLPhoneAuthVerifyMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhoto.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/SLPhoto.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/SLPhotoMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/Protocols/SLPhotoMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/SLPhotoResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/SLPhotoResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/Protocols/SLPhotoResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoURL.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/SLPhotoURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoURLMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/SLPhotoURLMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLPhotoURLMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Photos/Mappers/Protocols/SLPhotoURLMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReaction.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/SLReaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/Mappers/SLReactionMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/Mappers/Protocols/SLReactionMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactions.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/SLReactions.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionsEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLReactionsEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionsEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLReactionsEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionsMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/Mappers/SLReactionsMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLReactionsMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Reactions/Mappers/Protocols/SLReactionsMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLRequest.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Request/SLRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Response/SLResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLResponseSerializer.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/HTTP Client/SLResponseSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLStorage.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Storage/SLStorage.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLStorageProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Storage/SLStorageProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionDuration.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/SLSubscriptionDuration.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionDurationMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/SLSubscriptionDurationMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionDurationMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLSubscriptionDurationMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionService.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/SLSubscriptionService.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionServiceMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/SLSubscriptionServiceMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionServiceMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLSubscriptionServiceMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionServices.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/SLSubscriptionServices.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionServicesMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/SLSubscriptionServicesMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLSubscriptionServicesMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Subscriptions/Mappers/Protocols/SLSubscriptionServicesMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLTextMessage.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Messages/Text/SLTextMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUploadRequest.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Api/Response/SLUploadRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUser.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserEvent.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/SLUserEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserEventMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Events/Mappers/SLUserEventMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLUserMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/Protocols/SLUserMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserParameters.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/SLUserParameters.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserParametersMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/Mappers/SLUserParametersMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserParametersMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Parameters/Mappers/Protocols/SLUserParametersMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserRecsMeta.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/SLUserRecsMeta.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserRecsMetaMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/SLUserRecsMetaMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUserRecsMetaMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Extras/Mappers/Protocols/SLUserRecsMetaMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersFilterResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLUsersFilterResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersFilterResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLUsersFilterResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersFilterResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/Protocols/SLUsersFilterResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersRecsResponse.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/SLUsersRecsResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersRecsResponseMapper.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/SLUsersRecsResponseMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SLUsersRecsResponseMapperProtocol.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/Entities/Users/Mappers/Protocols/SLUsersRecsResponseMapperProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "SoulSDK-Swift.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/SoulSDK.framework/Headers/SoulSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SoulSDK-umbrella.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/Pods/Target Support Files/SoulSDK/SoulSDK-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SoulSDK.h",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Pod/Classes/SoulSDK.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mshershnev/soul-ios-sdk/Example/build/Debug-iphonesimulator/SoulSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mshershnev/soul-ios-sdk/Example/build/Pods.build/Debug-iphonesimulator/SoulSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

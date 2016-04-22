@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Subscriptions/SLAvailableSubscription.h

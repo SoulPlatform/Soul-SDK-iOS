@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Photos/Mappers/SLPhotoMapper.h

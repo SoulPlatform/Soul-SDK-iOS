@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Authorization/SLAuthorization.h

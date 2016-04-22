@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Messages/Text/SLTextMessage.h

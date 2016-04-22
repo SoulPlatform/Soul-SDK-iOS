@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Api/Endpoints/Album/SLApiAlbum.h

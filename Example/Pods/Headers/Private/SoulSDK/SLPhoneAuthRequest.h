@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Authorization/SLPhoneAuthRequest.h

@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Parameters/Mappers/Protocols/SLUserParametersMapperProtocol.h

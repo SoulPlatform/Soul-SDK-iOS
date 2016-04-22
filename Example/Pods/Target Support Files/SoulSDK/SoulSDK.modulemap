@@ -1,0 +1,6 @@
+framework module SoulSDK {
+  umbrella header "SoulSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

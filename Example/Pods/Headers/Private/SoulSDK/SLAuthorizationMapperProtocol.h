@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Authorization/Mappers/Protocols/SLAuthorizationMapperProtocol.h

@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entities/Subscriptions/SLSubscriptionServices.h
