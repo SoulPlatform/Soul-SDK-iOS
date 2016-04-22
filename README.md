@@ -36,6 +36,15 @@ config.apiKey = @"*********";
 [SoulSDK activateWithApiConfig:config];
 ```
 
+### Авторизация по логину и паролю
+```obj-c
+[[soulSDK passwordAuth] signUpWithLogin:@"alalal" password:@"jdjdjd" success:^(SLPhoneAuthVerify * _Nonnull responce) {
+    NSLog(@"success");
+} failure:^(SLErrorResponse * _Nullable response) {
+    NSLog(@"%@", response);
+}];
+```
+
 ### Авторизация по телефону
 
 Для авторизации по номеру телефона необходимо получить код подтверждения.
@@ -148,7 +157,7 @@ SLPhoto *photo = album.photos.firstObject;
 [[soulSDK album] setMainPhotoById:photo.photoId toAlbum:album.name success:^(SLResponse * _Nonnull response) {
     NSLog(@"success");
 } failure:^(SLErrorResponse * _Nullable response) {
-    NSLog(@"%@", error);
+    NSLog(@"%@", response);
 }];
 ```
 
