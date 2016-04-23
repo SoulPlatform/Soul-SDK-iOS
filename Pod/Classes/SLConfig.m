@@ -9,7 +9,7 @@
 #import "SLConfig.h"
 
 static NSString *const kURLString = @"https://api-1.soulplatform.com";
-static NSString *const kSdkVersion = @"1.0.0";
+static NSString *const kSdkVersion = @"1.0.1";
 
 @interface SLConfig ()
 
