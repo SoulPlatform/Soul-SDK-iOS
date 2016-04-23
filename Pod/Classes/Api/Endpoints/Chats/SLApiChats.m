@@ -47,7 +47,7 @@ static NSString *_Nonnull const kChatsEndpoint = @"/chats";
 }
 
 // GET: /chats
-- (void)loadChatsAfter:(nullable NSNumber *)after
+- (void)loadChatsAfter:(nullable NSString *)after
                  limit:(nonnull NSNumber *)limit
                success:(nullable SLApiChatsManySuccess)success
                failure:(nullable SLApiRequestFailure)failure {
@@ -62,7 +62,7 @@ static NSString *_Nonnull const kChatsEndpoint = @"/chats";
 }
 
 // GET: /chats
-- (void)loadChatsAfter:(nullable NSNumber *)after
+- (void)loadChatsAfter:(nullable NSString *)after
                  limit:(nonnull NSNumber *)limit
            showExpired:(BOOL)showExpired
                success:(nullable SLApiChatsManySuccess)success

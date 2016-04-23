@@ -26,13 +26,13 @@ typedef void (^SLApiChatsManySuccess)(SLChatsMany *_Nonnull responce);
                failure:(nullable SLApiRequestFailure)failure;
 
 // GET: /chats
-- (void)loadChatsAfter:(nullable NSNumber *)after
+- (void)loadChatsAfter:(nullable NSString *)after
                  limit:(nonnull NSNumber *)limit
                success:(nullable SLApiChatsManySuccess)success
                failure:(nullable SLApiRequestFailure)failure;
 
 // GET: /chats
-- (void)loadChatsAfter:(nullable NSNumber *)after
+- (void)loadChatsAfter:(nullable NSString *)after
                  limit:(nonnull NSNumber *)limit
            showExpired:(BOOL)showExpired
                success:(nullable SLApiChatsManySuccess)success
