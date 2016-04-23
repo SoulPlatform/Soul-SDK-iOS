@@ -169,7 +169,7 @@ SLPhoto *photo = album.photos.firstObject;
 NSString *session = @"";
 NSString *token = @"";
 
-[soulSDK loadBySession:session uniqueToken:token success:^(SLUsersRecsResponse *_Nonnull responce) {
+[[soulSDK users] loadBySession:session uniqueToken:token success:^(SLUsersRecsResponse *_Nonnull responce) {
 
     for (SLUser *user in responce.users) {
     	NSLog(@"%@", user.userId);
