@@ -38,7 +38,7 @@ typedef void (^SLHttpClientAFFailure)(NSURLSessionDataTask * _Nullable, NSError 
     return self;
 }
 
-- (void)executeAtRequest:(nonnull SLRequest *)request success:(nullable SLHttpClientSuccess)success failure:(nullable SLHttpClientFailure)failure {
+- (void)executeAtRequest:(nonnull SLHTTPRequest *)request success:(nullable SLHttpClientSuccess)success failure:(nullable SLHttpClientFailure)failure {
 
     NSString *endpoint = request.endpoint;
     NSDictionary *params = request.params;
@@ -104,7 +104,7 @@ typedef void (^SLHttpClientAFFailure)(NSURLSessionDataTask * _Nullable, NSError 
 
 }
 
-- (AFHTTPSessionManager *)httpManagerByRequest:(SLRequest *)request {
+- (AFHTTPSessionManager *)httpManagerByRequest:(SLHTTPRequest *)request {
 
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:_config.baseURL];
     AFJSONRequestSerializer *requestSerializer = [AFJSONRequestSerializer serializer];
@@ -124,7 +124,7 @@ typedef void (^SLHttpClientAFFailure)(NSURLSessionDataTask * _Nullable, NSError 
     return manager;
 }
 
-- (NSString *)bodyByRequest:(SLRequest *)request {
+- (NSString *)bodyByRequest:(SLHTTPRequest *)request {
 
     NSMutableURLRequest *fakeRequest = [NSMutableURLRequest new];
     fakeRequest.HTTPMethod = [request methodString];

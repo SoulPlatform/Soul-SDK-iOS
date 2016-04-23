@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "SLConfig.h"
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 #import "SLUploadRequest.h"
 #import "SLStorageProtocol.h"
 
@@ -20,6 +20,6 @@ typedef void (^SLHttpClientFailure)(NSError * _Nonnull error);
 
 @required
 - (nullable instancetype)initWithApiConfig:(nonnull SLConfig *)config storage:(nullable NSObject <SLStorageProtocol> *)storage;
-- (void)executeAtRequest:(nonnull SLRequest *)request success:(nullable SLHttpClientSuccess)success failure:(nullable SLHttpClientFailure)failure;
+- (void)executeAtRequest:(nonnull SLHTTPRequest *)request success:(nullable SLHttpClientSuccess)success failure:(nullable SLHttpClientFailure)failure;
 
 @end

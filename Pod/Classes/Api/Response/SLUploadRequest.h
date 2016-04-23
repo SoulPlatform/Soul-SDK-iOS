@@ -6,9 +6,9 @@
 //
 //
 
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 
-@interface SLUploadRequest :SLRequest
+@interface SLUploadRequest :SLHTTPRequest
 
 @property (nonatomic, strong, readonly, nonnull) NSMutableDictionary <NSString *, NSData*> *uploads;
 

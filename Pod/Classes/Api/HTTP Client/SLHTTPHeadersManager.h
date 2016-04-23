@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 #import "SLStorageProtocol.h"
 
 @interface SLHTTPHeadersManager :NSObject
 
-- (NSDictionary *)headersByRequest:(SLRequest *)request andBody:(NSString *)body;
+- (NSDictionary *)headersByRequest:(SLHTTPRequest *)request andBody:(NSString *)body;
 - (instancetype)initWithStorage:(NSObject <SLStorageProtocol> *)storage;
 
 @end

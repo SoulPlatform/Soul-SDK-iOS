@@ -15,7 +15,7 @@
 #import "SLHttpClientProtocol.h"
 #import "SLHTTPHeadersManager.h"
 #import "SLResponseSerializer.h"
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 #import "SLResponse.h"
 #import "SLUploadRequest.h"
 #import "SLApiBase.h"

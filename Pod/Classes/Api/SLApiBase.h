@@ -8,7 +8,7 @@
 
 #import "SLError.h"
 #import "SLConfig.h"
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 #import "SLResponse.h"
 #import "SLErrorResponse.h"
 #import "SLStorageProtocol.h"

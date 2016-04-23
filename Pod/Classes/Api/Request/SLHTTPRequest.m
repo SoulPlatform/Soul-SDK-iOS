@@ -6,9 +6,9 @@
 //
 //
 
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 
-@implementation SLRequest
+@implementation SLHTTPRequest
 
 + (nullable instancetype)requestWithHttpMethod:(SLHTTPMethodType)httpMethod
                                       isSecure:(BOOL)isSecure

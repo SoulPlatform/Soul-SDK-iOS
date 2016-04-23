@@ -98,7 +98,7 @@ static NSString *const kVersion = @"v";
                       success:(nullable SLApiRequestSuccess)success
                       failure:(nullable SLApiRequestFailure)failure {
 
-    SLRequest *request = [SLRequest requestWithHttpMethod:httpMethod
+    SLHTTPRequest *request = [SLHTTPRequest requestWithHttpMethod:httpMethod
                                                  isSecure:isSecure
                                                  endpoint:endpoint
                                                    params:params];
@@ -122,7 +122,7 @@ static NSString *const kVersion = @"v";
     [self executeAtRequest:uploadRequest success:success failure:failure];
 }
 
-- (void)executeAtRequest:(nonnull SLRequest *)request
+- (void)executeAtRequest:(nonnull SLHTTPRequest *)request
                  success:(nullable SLApiRequestSuccess)success
                  failure:(nullable SLApiRequestFailure)failure {
 

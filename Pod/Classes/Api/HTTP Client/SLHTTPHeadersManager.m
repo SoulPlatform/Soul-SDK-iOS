@@ -32,7 +32,7 @@ static NSString *const kAuthorization = @"Authorization";
     return self;
 }
 
-- (NSDictionary *)headersByRequest:(SLRequest *)request andBody:(NSString *)body {
+- (NSDictionary *)headersByRequest:(SLHTTPRequest *)request andBody:(NSString *)body {
 
     NSMutableDictionary *headers = [NSMutableDictionary dictionary];
 
@@ -45,7 +45,7 @@ static NSString *const kAuthorization = @"Authorization";
     return headers;
 }
 
-- (NSString *)_hmacAtRequest:(SLRequest *)request andBody:(NSString *)body {
+- (NSString *)_hmacAtRequest:(SLHTTPRequest *)request andBody:(NSString *)body {
 
     NSString *userId = _storage.userId;
     NSString *sessionToken = _storage.sessionToken;

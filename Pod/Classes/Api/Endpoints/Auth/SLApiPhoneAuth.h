@@ -7,7 +7,7 @@
 //
 
 #import "SLApiAuth.h"
-#import "SLRequest.h"
+#import "SLHTTPRequest.h"
 
 #import "SLError.h"
 #import "SLPhoneAuthRequest.h"

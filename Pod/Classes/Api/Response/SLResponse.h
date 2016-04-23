@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-@class SLRequest;
+@class SLHTTPRequest;
 
 @interface SLResponse :NSObject
 
-@property (nonatomic, weak, nullable) SLRequest *request;
+@property (nonatomic, weak, nullable) SLHTTPRequest *request;
 @property (nonatomic, strong, nullable) NSDictionary *dict;
 
 @end

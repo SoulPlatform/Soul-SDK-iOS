@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, SLHTTPMethodType) {
     SLHTTPMethodDELETE,
 };
 
-@interface SLRequest :NSObject
+@interface SLHTTPRequest :NSObject
 
 @property (nonatomic, strong, readonly, nonnull) NSString *endpoint;
 @property (nonatomic, strong, readonly, nullable) NSDictionary *params;
