@@ -151,6 +151,9 @@ static NSString *const kVersion = @"v";
 
         NSDictionary *userInfo = nsError.userInfo;
         NSString *errorString = userInfo[SLErrorKey];
+        if (errorString == nil) {
+            errorString = userInfo[NSLocalizedDescriptionKey];
+        }
 
         NSData *errorData = [errorString dataUsingEncoding:NSUTF8StringEncoding];
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:errorData
