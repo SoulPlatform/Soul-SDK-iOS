@@ -27,6 +27,10 @@
     [_parameters forKey:key setValue:@(value)];
 }
 
+- (void)addConditionFor:(NSString *)parameter in:(NSArray *)array {
+    [self addConditionFor:parameter relation:SLFilterRelationIn than:array];
+}
+
 - (void)addConditionFor:(NSString *)parameter equalTo:(NSObject *)value {
     [self addConditionFor:parameter relation:SLFilterRelationEqual than:value];
 }
@@ -56,6 +60,9 @@
     NSString *postfix;
 
     switch (relation) {
+        case SLFilterRelationIn:
+            postfix = @"in";
+            break;
         case SLFilterRelationGreaterThan:
             postfix = @"gt";
             break;

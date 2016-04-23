@@ -9,6 +9,7 @@
 #import "SLObject.h"
 
 typedef NS_ENUM(NSInteger, SLFilterRelation) {
+    SLFilterRelationIn,
     SLFilterRelationEqual,
     SLFilterRelationGreaterThan,
     SLFilterRelationGreaterThanOrEqual,
@@ -22,6 +23,7 @@ typedef NS_ENUM(NSInteger, SLFilterRelation) {
 
 - (void)setGeoSensitive:(BOOL)value;
 
+- (void)addConditionFor:(NSString *)parameter in:(NSArray *)array;
 - (void)addConditionFor:(NSString *)parameter equalTo:(NSObject *)value;
 
 - (void)addConditionFor:(NSString *)parameter greaterThan:(NSObject *)value;

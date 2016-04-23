@@ -186,7 +186,9 @@ NSString *token = @"";
 
 ```obj-c
 SLFilter *filter = [SLFilter new];
+
 [filter addConditionFor:@"gender" equalTo:@"female"];
+[filter addConditionFor:@"activity" in:@[@"swimming", @"bike"];
 
 [filter addConditionFor:@"age" greaterThan:@20];
 [filter addConditionFor:@"height" greaterThanOrEqualTo:@150];
