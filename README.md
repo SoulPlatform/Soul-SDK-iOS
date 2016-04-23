@@ -238,7 +238,7 @@ SoulSDK *soulSDK = [SoulSDK instance];
 SLEvent *event = [SLEvent new];
 NSNumber *limit = @(20);
 
-[[soulSDK events] loadAfter:event.recordId limit:limit success:^(SLApiEventsSuccess *_Nonnull responce) {
+[[soulSDK events] loadAfter:event.recordId limit:limit success:^(SLEventsResponse *_Nonnull responce) {
     for (SLEvent *user in responce.events) {
         NSLog(@"%@", user.recordId);
     }
